@@ -1,10 +1,14 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    margin: 20px;
 }
  h2 {
     background-color: yellow;
  }
 main {
+    max-width: 800px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,4 +18,31 @@ main {
     text-align: center;
     /* Centraliza o texto dentro do main */
     
+}
+
+.zebra-list {
+    list-style-type: decimal; /* Números em vez de marcadores */
+    padding: 0;
+    margin: 0;
+}
+
+.zebra-list li {
+    padding: 10px;
+}
+
+.zebra-list li:nth-child(odd) {
+    background-color: #f2f2f2; /* Cor de fundo para itens ímpares */
+}
+
+.zebra-list li:nth-child(even) {
+    background-color: #ffffff; /* Cor de fundo para itens pares */
+}
+
+h1, h2 {
+    /* text-align: center; */
+    color: #333;
+}
+
+p {
+    margin: 0 0 10px 0;
 }
