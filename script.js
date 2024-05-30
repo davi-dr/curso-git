@@ -1,6 +1,7 @@
 // alert("Seja Bem Vindo !");
 
-/* COMANDOS GIT :
+/* 
+COMANDOS GIT :
 git init : Inicia um novo repositório vazio no GIT local na pasta atual.
 
 git status : Verifica o status atual do repositório, incluindo arquivos modificados e arquivos na (Staging Area).
@@ -17,6 +18,8 @@ git log : Ver o histórico de commits.
 
 git checkout: Usado para alternar entre BRANCHS, cria novos branches, ou mudar para uma versão anterior do codigo em um branch existente.
 
+git checkout -b nomeBranch: Cria uma nova branch e ja navega para ela.
 git branch: Lista as branches do projeto.
 
-git merge: */
+git merge nomeBranchDesejada: Permite unir o conteúdo de duas ou mais branches em uma única branch / É usado para integrar alterações feitas em uma branch secundária (Geralmente uma branch de desenvolvimento) na branch Principal (geralmente na branch master/main) 
+*/
