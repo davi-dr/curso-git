@@ -22,4 +22,10 @@ git checkout -b nomeBranch: Cria uma nova branch e ja navega para ela.
 git branch: Lista as branches do projeto.
 
 git merge nomeBranchDesejada: Permite unir o conteúdo de duas ou mais branches em uma única branch / É usado para integrar alterações feitas em uma branch secundária (Geralmente uma branch de desenvolvimento) na branch Principal (geralmente na branch master/main) 
+
+git remote add origin: Usado para conectar o projeto local com o repositório do GitHub.
+
+git push: Para enviar o projeto para o GitHub.
+
+git clone: Puxar o repositório do GitHub e baixar na maquina do usuário / você seleciona a URL do projeto no GitHub que quer baixar.
 */
